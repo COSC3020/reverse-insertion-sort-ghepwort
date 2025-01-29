@@ -36,3 +36,13 @@ constant factors.
 Describe your reasoning and the conclusion you've come to. Your reasoning is
 most important -- you can easily find the answer, but you need to demonstrate
 that you've understood the concept. Add your answer to this markdown file.
+
+## Answers
+
+The average time complexity would be $\Theta(n^2)$. On the average case senario we must move an object in the i-th position in the array $\frac{i}{2}$ spaces. So something in the 4th spot will move 2 positions, 10th spot will move 5 positions, etc. If we sum the number of spaces moved we get $\sum_{i=1}^{n}\frac{i}{2} = \frac{1}{2}\sum_{i=1}^{n}i = \frac{1}{2}\cdot\frac{n}{2}(n+1) = n^2$. This analysis gives us that the average time compplexity would be $\Theta(n^2)$.
+
+## Credits
+
+I used [Symbolab.com](https://www.symbolab.com/solver/step-by-step/%5Csum_%7Bi%3D1%7D%5E%7Bn%7D%5Cfrac%7Bi%7D%7B2%7D%20?or=input) to do the summation calculation listed above.
+
+I certify that I have listed all sources used to complete this exercise, including the use of any Large Language Models. All of the work is my own, except where stated otherwise. I am aware that plagiarism carries severe penalties and that if plagiarism is suspected, charges may be filed against me without prior notice.
